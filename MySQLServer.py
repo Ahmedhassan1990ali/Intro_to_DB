@@ -14,7 +14,5 @@ try:
 except mysql.connector.Error as E:
     print(E)
 
-
-
 mycursor.close()
 mydb.close()
